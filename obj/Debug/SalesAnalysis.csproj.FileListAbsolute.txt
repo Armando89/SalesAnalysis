@@ -1,0 +1,9 @@
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\bin\Debug\SalesAnalysis.exe.config
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\bin\Debug\SalesAnalysis.exe
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\bin\Debug\SalesAnalysis.pdb
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\obj\Debug\SalesAnalysis.csprojAssemblyReference.cache
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\obj\Debug\SalesAnalysis.SalesAnalysisForm.resources
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\obj\Debug\SalesAnalysis.Properties.Resources.resources
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\obj\Debug\SalesAnalysis.csproj.GenerateResource.cache
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\obj\Debug\SalesAnalysis.exe
+C:\Users\arman\VS\Unit8Project\SalesAnalysis\SalesAnalysis\obj\Debug\SalesAnalysis.pdb
