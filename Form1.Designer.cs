@@ -37,6 +37,10 @@
             this.AverageLabel = new System.Windows.Forms.Label();
             this.HighestLabel = new System.Windows.Forms.Label();
             this.LowestLabel = new System.Windows.Forms.Label();
+            this.TotalNameLabel = new System.Windows.Forms.Label();
+            this.AverageNameLabel = new System.Windows.Forms.Label();
+            this.HighestNameLabel = new System.Windows.Forms.Label();
+            this.LowestNameLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // DisplayButton
@@ -124,11 +128,51 @@
             this.LowestLabel.TabIndex = 8;
             this.LowestLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // TotalNameLabel
+            // 
+            this.TotalNameLabel.AutoSize = true;
+            this.TotalNameLabel.Location = new System.Drawing.Point(288, 12);
+            this.TotalNameLabel.Name = "TotalNameLabel";
+            this.TotalNameLabel.Size = new System.Drawing.Size(85, 20);
+            this.TotalNameLabel.TabIndex = 9;
+            this.TotalNameLabel.Text = "Sum Total:";
+            // 
+            // AverageNameLabel
+            // 
+            this.AverageNameLabel.AutoSize = true;
+            this.AverageNameLabel.Location = new System.Drawing.Point(288, 89);
+            this.AverageNameLabel.Name = "AverageNameLabel";
+            this.AverageNameLabel.Size = new System.Drawing.Size(72, 20);
+            this.AverageNameLabel.TabIndex = 10;
+            this.AverageNameLabel.Text = "Average:";
+            // 
+            // HighestNameLabel
+            // 
+            this.HighestNameLabel.AutoSize = true;
+            this.HighestNameLabel.Location = new System.Drawing.Point(288, 156);
+            this.HighestNameLabel.Name = "HighestNameLabel";
+            this.HighestNameLabel.Size = new System.Drawing.Size(68, 20);
+            this.HighestNameLabel.TabIndex = 11;
+            this.HighestNameLabel.Text = "Highest:";
+            // 
+            // LowestNameLabel
+            // 
+            this.LowestNameLabel.AutoSize = true;
+            this.LowestNameLabel.Location = new System.Drawing.Point(288, 228);
+            this.LowestNameLabel.Name = "LowestNameLabel";
+            this.LowestNameLabel.Size = new System.Drawing.Size(64, 20);
+            this.LowestNameLabel.TabIndex = 12;
+            this.LowestNameLabel.Text = "Lowest:";
+            // 
             // SalesAnalysisForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(665, 436);
+            this.Controls.Add(this.LowestNameLabel);
+            this.Controls.Add(this.HighestNameLabel);
+            this.Controls.Add(this.AverageNameLabel);
+            this.Controls.Add(this.TotalNameLabel);
             this.Controls.Add(this.LowestLabel);
             this.Controls.Add(this.HighestLabel);
             this.Controls.Add(this.AverageLabel);
@@ -141,6 +185,7 @@
             this.Name = "SalesAnalysisForm";
             this.Text = "Sales Analysis";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -155,6 +200,10 @@
         private System.Windows.Forms.Label AverageLabel;
         private System.Windows.Forms.Label HighestLabel;
         private System.Windows.Forms.Label LowestLabel;
+        private System.Windows.Forms.Label TotalNameLabel;
+        private System.Windows.Forms.Label AverageNameLabel;
+        private System.Windows.Forms.Label HighestNameLabel;
+        private System.Windows.Forms.Label LowestNameLabel;
     }
 }
 
